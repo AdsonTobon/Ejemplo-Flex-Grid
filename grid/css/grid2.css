@@ -1,0 +1,51 @@
+body{
+    background:azure;
+}
+
+#pagina{
+    height: 700px;
+    display: grid;
+    font-family: 'lobster', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    grid-template-areas: "cabecera cabecera"
+                         "menù cuerpo" 
+                        "menù pie"
+                        ;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    
+    /* align-self: stretch; */
+    /* grid-template-rows: 200px 1fr 100px; */
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* grid-template-columns: 200px 1fr; */
+}
+
+header{
+    background: teal;
+    grid-area: cabecera;
+}
+
+nav{
+    background: tomato;
+    grid-area: menù;
+}
+
+section{
+    background: seagreen;
+    grid-area: cuerpo;
+}
+
+footer{
+
+    background: slategray;
+    grid-area: pie;
+}
+
+.main-center{
+    
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+}

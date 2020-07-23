@@ -1,0 +1,49 @@
+
+body{
+    background-color: grey;
+}
+
+#grid{
+    padding: 15px;
+    height: 500px;
+    display: grid;
+    font-family: 'lobster', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+
+#grid article{
+
+    /* background-color: teal; */
+    
+    padding: 20px;
+} 
+
+#item_1{
+    background:blue;
+}
+#item_2{
+    background: teal;
+}
+#item_3{
+    background: tomato;
+}
+#item_4{
+    background: wheat;
+}
+#item_5{
+    background: yellowgreen;
+}
+#item_6{
+    background: red;
+}
+#item_7{
+    background: royalblue;
+}
+#item_8{
+    background: seagreen;
+}
+#item_9{
+    background: purple;
+}

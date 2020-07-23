@@ -1,0 +1,57 @@
+#container{
+    background-color: gray;
+    padding: 20px;
+    font-family: 'lobster', Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor_padre{
+
+    background-color: teal;
+    
+    padding: 1%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+   
+
+
+
+   
+}
+
+#contenedor_hijo_1{
+    background-color: rgb(0, 255, 213);
+    
+
+}
+
+#contenedor_hijo_2{
+    background-color: rgb(115, 9, 136);
+
+}
+
+#contenedor_hijo_3{
+    background-color: rgba(69, 236, 18, 0.89);
+
+}
+
+.contenedor_hijo{
+    font-size: 25px;
+    font-family: 'lobster', Arial, Helvetica, sans-serif;
+    
+    width: 32%;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+div div a {
+    color: white;
+}
+
+

@@ -1,0 +1,81 @@
+
+
+#contenedor_padre{
+
+    background-color: teal;
+    padding: 1%;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* FLEX-WRAP ---nos ayuda a que nuestros contenedores tenga el ancho que le asignamos */
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: flex-end; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    
+    /* align-items: center; */
+    /* align-content: flex-end; */
+
+
+
+   
+}
+
+#contenedor_hijo_1{
+    background-color: rgb(0, 255, 213);
+    /* font-size: 25px;
+    font-family: 'lobster', Arial, Helvetica, sans-serif;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-content: center; */
+
+}
+
+#contenedor_hijo_2{
+    background-color: rgb(115, 9, 136);
+
+}
+
+#contenedor_hijo_3{
+    background-color: rgba(69, 236, 18, 0.89);
+
+}
+#contenedor_hijo_4{
+    background-color: rgba(18, 192, 236, 0.89);
+
+}
+#contenedor_hijo_5{
+    background-color: rgba(101, 18, 236, 0.89);
+
+}
+#contenedor_hijo_6{
+    background-color: rgb(255, 0, 0);
+
+}
+
+.contenedor_hijo{
+    font-size: 25px;
+    font-family: 'lobster', Arial, Helvetica, sans-serif;
+    width: 32%;
+    /* height: 40px; */
+    /* text-align: center; */
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    
+    
+   
+    
+}
+
+
